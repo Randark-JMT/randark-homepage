@@ -48,6 +48,7 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	min-height: 100vh;
 }
 h1,
 h2,
@@ -121,7 +122,7 @@ blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
 	margin: 0;
-	font-size: 1.333em;
+	font-size: 1em;
 }
 hr {
 	border: none;

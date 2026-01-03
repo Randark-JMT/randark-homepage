@@ -3,7 +3,7 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Your name here. All rights reserved.
+	&copy; {today.getFullYear()} 陈橘墨(Randark). All rights reserved.
 	<div class="social-links">
 		<a href="https://m.webtoo.ls/@astro" target="_blank">
 			<span class="sr-only">Follow Astro on Mastodon</span>
@@ -38,6 +38,9 @@ const today = new Date();
 			>
 		</a>
 	</div>
+	<div class="icp">
+		闽ICP备2022010798号
+	</div>
 </footer>
 <style>
 	footer {
@@ -58,5 +61,10 @@ const today = new Date();
 	}
 	.social-links a:hover {
 		color: rgb(var(--gray-dark));
+	}
+	.icp {
+		/* margin-top: 1.0em; */
+		font-size: 0.9em;
+		color: rgb(var(--gray));
 	}
 </style>
