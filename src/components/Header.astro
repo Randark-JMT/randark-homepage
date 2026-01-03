@@ -169,6 +169,22 @@ import HeaderLink from "./HeaderLink.astro";
 	@media (max-width: 720px) {
 		.social-links {
 			display: none;
+			/* display: flex; */
+		}
+		nav {
+			flex-wrap: wrap;
+			padding-bottom: 0.5em;
+		}
+		.internal-links {
+			order: 3;
+			width: 100%;
+			display: flex;
+			justify-content: space-evenly;
+			margin-top: 0.5em;
+			font-size: 0.9em;
+		}
+		nav a {
+			padding: 0.5em;
 		}
 	}
 </style>
